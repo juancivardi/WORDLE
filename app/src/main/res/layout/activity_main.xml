@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width= "match_parent"
+    android:layout_height= "match_parent"
+    android:orientation="vertical"
+    android:background="#dddddd">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WORDLE"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:background="#ffffff"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/casilla1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/casilla2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/casilla3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/casilla4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/casilla5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/casilla6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/casilla7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/casilla8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/casilla9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/casilla10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/casilla11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/casilla12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/casilla13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/casilla14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/casilla15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/casilla16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/casilla17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/casilla18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/casilla19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/casilla20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/casilla21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/casilla22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/casilla23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/casilla24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/casilla25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/casilla26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/casilla27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/casilla28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/casilla29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/casilla30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/btnArriba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/letraQ"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="Q"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                android:id="@+id/letraW"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="W"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                android:id="@+id/letraE"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="E"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                android:id="@+id/letraR"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="R"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                android:id="@+id/letraT"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="T"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                android:id="@+id/letraY"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="Y"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                android:id="@+id/letraU"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="U"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                android:id="@+id/letraI"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="I"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                android:id="@+id/letraO"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="O"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                android:id="@+id/letraP"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="P"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnMedio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/letraA"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="A"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                android:id="@+id/letraS"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="S"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                android:id="@+id/letraD"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="D"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                android:id="@+id/letraF"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="F"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                android:id="@+id/letraG"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="G"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                android:id="@+id/letraH"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="H"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                android:id="@+id/letraJ"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="J"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                android:id="@+id/letraK"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="K"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                android:id="@+id/letraL"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="L"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                android:id="@+id/letraÑ"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="Ñ"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnAbajo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ENVIAR"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="ENVIAR"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                app:backgroundTint="#888888"
+                android:onClick="comprobarPalabra"/>
+
+            <Button
+                android:id="@+id/letraZ"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="Z"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                android:id="@+id/letraX"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="X"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                android:id="@+id/letraC"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="C"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                android:id="@+id/letraV"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="V"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                android:id="@+id/letraB"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="B"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                android:id="@+id/letraN"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="N"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                android:id="@+id/letraM"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="M"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                android:id="@+id/BORRAR"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:text="-"
+                android:textColor="#000000"
+                app:backgroundTint="#888888"
+                android:onClick="borrarLetra"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
