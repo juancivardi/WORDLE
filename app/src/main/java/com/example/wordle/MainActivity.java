@@ -60,7 +60,6 @@ public class MainActivity extends AppCompatActivity {
     public void enviarLetra(View v){
         Button boton = (Button)v;
         String texto = boton.getText().toString();
-        System.out.println(casillaActual);
         if(!juegoTerminado && textViews.get(casillaActual).getText() == ""){
             // Si la casilla actual está vacia (esto es porque si no cuando estaba en la ultima se cambiaba por la ultima apretada)
             palabraIngresada = palabraIngresada + texto; // Se agrega la ultima letra ingresada a la palagra ingresada.
