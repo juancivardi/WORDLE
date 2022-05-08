@@ -29,57 +29,58 @@
 
             <TextView
                 android:id="@+id/casilla1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center"/>
 
             <TextView
                 android:id="@+id/casilla2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
-
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/casilla3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
-
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/casilla4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
-
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/casilla5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
-
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center"/>
 
         </TableRow>
 
@@ -90,57 +91,58 @@
 
             <TextView
                 android:id="@+id/casilla6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
-
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/casilla7"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
-
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/casilla8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
-
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/casilla9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
-
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/casilla10"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
         </TableRow>
 
@@ -151,58 +153,58 @@
 
             <TextView
                 android:id="@+id/casilla11"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
-
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/casilla12"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
-
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/casilla13"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
-
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/casilla14"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
-
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/casilla15"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
-
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
         </TableRow>
 
@@ -213,58 +215,58 @@
 
             <TextView
                 android:id="@+id/casilla16"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
-
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/casilla17"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
-
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/casilla18"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
-
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/casilla19"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
-
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/casilla20"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
-
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
         </TableRow>
 
@@ -275,53 +277,58 @@
 
             <TextView
                 android:id="@+id/casilla21"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/casilla22"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/casilla23"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/casilla24"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/casilla25"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
         </TableRow>
 
         <TableRow
@@ -331,53 +338,58 @@
 
             <TextView
                 android:id="@+id/casilla26"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/casilla27"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/casilla28"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/casilla29"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/casilla30"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="25sp"
+                android:textAlignment="center" />
 
         </TableRow>
 
