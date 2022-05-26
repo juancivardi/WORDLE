@@ -96,9 +96,9 @@
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
+                android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="25sp"
-                android:textAlignment="center" />
+                android:textSize="25sp" />
 
             <TextView
                 android:id="@+id/casilla7"
@@ -107,9 +107,9 @@
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
+                android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="25sp"
-                android:textAlignment="center" />
+                android:textSize="25sp" />
 
             <TextView
                 android:id="@+id/casilla8"
@@ -118,9 +118,9 @@
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
+                android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="25sp"
-                android:textAlignment="center" />
+                android:textSize="25sp" />
 
             <TextView
                 android:id="@+id/casilla9"
@@ -129,9 +129,9 @@
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
+                android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="25sp"
-                android:textAlignment="center" />
+                android:textSize="25sp" />
 
             <TextView
                 android:id="@+id/casilla10"
@@ -140,9 +140,9 @@
                 android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:padding="10dp"
+                android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="25sp"
-                android:textAlignment="center" />
+                android:textSize="25sp" />
 
         </TableRow>
 

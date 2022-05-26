@@ -13,10 +13,11 @@ import java.util.ArrayList;
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
-    private int casillaActual = 0;
-    private int ultimaCasilla = 29; // En el arreglo se indexa de 0 a 29
+    private int filaActual = 1;
+    private int casillaActual = 1;
+    private int ultimaCasilla = 5;
     private boolean juegoTerminado = false;
-    private ArrayList<TextView> textViews = new ArrayList<TextView>();
+    private TextView filaCasillas [] = new TextView [6];
     private String palabraEscondida = "FUEGO";
     private String palabraIngresada = "";
 
@@ -24,91 +25,176 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        cargarProximaFila();
+    }
 
-        textViews.add(findViewById(R.id.casilla1));
-        textViews.add(findViewById(R.id.casilla2));
-        textViews.add(findViewById(R.id.casilla3));
-        textViews.add(findViewById(R.id.casilla4));
-        textViews.add(findViewById(R.id.casilla5));
-        textViews.add(findViewById(R.id.casilla6));
-        textViews.add(findViewById(R.id.casilla7));
-        textViews.add(findViewById(R.id.casilla8));
-        textViews.add(findViewById(R.id.casilla9));
-        textViews.add(findViewById(R.id.casilla10));
-        textViews.add(findViewById(R.id.casilla11));
-        textViews.add(findViewById(R.id.casilla12));
-        textViews.add(findViewById(R.id.casilla13));
-        textViews.add(findViewById(R.id.casilla14));
-        textViews.add(findViewById(R.id.casilla15));
-        textViews.add(findViewById(R.id.casilla16));
-        textViews.add(findViewById(R.id.casilla17));
-        textViews.add(findViewById(R.id.casilla18));
-        textViews.add(findViewById(R.id.casilla19));
-        textViews.add(findViewById(R.id.casilla20));
-        textViews.add(findViewById(R.id.casilla21));
-        textViews.add(findViewById(R.id.casilla22));
-        textViews.add(findViewById(R.id.casilla23));
-        textViews.add(findViewById(R.id.casilla24));
-        textViews.add(findViewById(R.id.casilla25));
-        textViews.add(findViewById(R.id.casilla26));
-        textViews.add(findViewById(R.id.casilla27));
-        textViews.add(findViewById(R.id.casilla28));
-        textViews.add(findViewById(R.id.casilla29));
-        textViews.add(findViewById(R.id.casilla30));
+    private void cargarProximaFila(){
+        switch (filaActual){
+
+            case 1:
+                filaCasillas[1] = findViewById(R.id.casilla1);
+                filaCasillas[2] = findViewById(R.id.casilla2);
+                filaCasillas[3] = findViewById(R.id.casilla3);
+                filaCasillas[4] = findViewById(R.id.casilla4);
+                filaCasillas[5] = findViewById(R.id.casilla5);
+                break;
+            case 2:
+                filaCasillas[1] = findViewById(R.id.casilla6);
+                filaCasillas[2] = findViewById(R.id.casilla7);
+                filaCasillas[3] = findViewById(R.id.casilla8);
+                filaCasillas[4] = findViewById(R.id.casilla9);
+                filaCasillas[5] = findViewById(R.id.casilla10);
+                break;
+            case 3:
+                filaCasillas[1] = findViewById(R.id.casilla11);
+                filaCasillas[2] = findViewById(R.id.casilla12);
+                filaCasillas[3] = findViewById(R.id.casilla13);
+                filaCasillas[4] = findViewById(R.id.casilla14);
+                filaCasillas[5] = findViewById(R.id.casilla15);
+                break;
+            case 4:
+                filaCasillas[1] = findViewById(R.id.casilla16);
+                filaCasillas[2] = findViewById(R.id.casilla17);
+                filaCasillas[3] = findViewById(R.id.casilla18);
+                filaCasillas[4] = findViewById(R.id.casilla19);
+                filaCasillas[5] = findViewById(R.id.casilla20);
+                break;
+            case 5:
+                filaCasillas[1] = findViewById(R.id.casilla21);
+                filaCasillas[2] = findViewById(R.id.casilla22);
+                filaCasillas[3] = findViewById(R.id.casilla23);
+                filaCasillas[4] = findViewById(R.id.casilla24);
+                filaCasillas[5] = findViewById(R.id.casilla25);
+                break;
+            case 6:
+                filaCasillas[1] = findViewById(R.id.casilla26);
+                filaCasillas[2] = findViewById(R.id.casilla27);
+                filaCasillas[3] = findViewById(R.id.casilla28);
+                filaCasillas[4] = findViewById(R.id.casilla29);
+                filaCasillas[5] = findViewById(R.id.casilla30);
+                break;
+        }
     }
 
     public void enviarLetra(View v){
         Button boton = (Button)v;
-        String texto = boton.getText().toString();
-        if(!juegoTerminado && textViews.get(casillaActual).getText() == ""){
-            // Si la casilla actual está vacia (esto es porque si no cuando estaba en la ultima se cambiaba por la ultima apretada)
-            palabraIngresada = palabraIngresada + texto; // Se agrega la ultima letra ingresada a la palagra ingresada.
-            textViews.get(casillaActual).setText(texto); // Se muestra la letra en la casilla que corresponda.
-            if ((casillaActual+1) % 5 != 0)
-                // Si la casilla no es la última de la fila entonces se avanza sobre la fila, caso contrario se avanza de fila si se presiona enviar.
-                casillaActual++;
+        String letraApretada = boton.getText().toString();
+        if(!juegoTerminado && filaCasillas[casillaActual].getText() == ""){
+            palabraIngresada = palabraIngresada + letraApretada;
+            filaCasillas[casillaActual].setText(letraApretada);
+            if(casillaActual < ultimaCasilla) casillaActual++;
         } else if (juegoTerminado){
             Toast.makeText(this, "Juego terminado.", Toast.LENGTH_SHORT).show();
         }
     }
 
     public void borrarLetra(View v){
-        if (!juegoTerminado && palabraIngresada != "") {
-            if (textViews.get(casillaActual).getText() == "") {
-                // Esta condicion solo no se cumple en el caso en el que el puntero este en la ultima casilla de la fila y no este vacia.
-                // Esto para que en ese caso, solo se borre la letra de esa casilla y no se retroceda el puntero
-                if (casillaActual % 5 != 0) {
-                    // Si el puntero no esta en la ultima casilla (podria estar ahi sin ninguna letra)
-                    // y esta sobre una casilla vacia entonces se vuelve una casilla atrás para borrar esa letra
-                    casillaActual--;
-                }
-                if (palabraIngresada.length() > 0)
-                    palabraIngresada = palabraIngresada.substring(0, palabraIngresada.length() - 1);
-                // Si la palabra ingresada tiene al menos una letra entonces se borra la última.
-                textViews.get(casillaActual).setText("");
-                // se borra la letra de la casilla.s
-            } else {
-                // Si el puntero estaba en la ultima casilla de la fila y estaba vacia entonces solo se borra esa letra y el puntero se mantiene ahí
-                palabraIngresada = palabraIngresada.substring(0, palabraIngresada.length() - 1);
-                textViews.get(casillaActual).setText("");
-            }
+        if (!juegoTerminado && !palabraIngresada.equals("")) {
+            if (filaCasillas[casillaActual].getText().equals("")) casillaActual--;
+            palabraIngresada = palabraIngresada.substring(0, palabraIngresada.length() - 1);
+            filaCasillas[casillaActual].setText("");
         }
     }
 
     public void comprobarPalabra(View v){
         if (!juegoTerminado) {
-            if (textViews.get(casillaActual).getText() != "") { // Si no hay ni una casilla vacia entonces la palabra esta completa
-                if (palabraIngresada.equals(palabraEscondida.toUpperCase(Locale.ROOT))) {
+            if (!filaCasillas[casillaActual].getText().equals("")) {
+                procesarPalabraIngresada();
+                if (palabraIngresada.equals(palabraEscondida)) {
                     Toast.makeText(this, "Palabra encontrada!", Toast.LENGTH_SHORT).show();
                     juegoTerminado = true;
+                } else {
+                    palabraIngresada = "";
+                    filaActual++;
+                    casillaActual = 1;
+                    cargarProximaFila();
                 }
-                palabraIngresada = ""; // Si no era igual la palabra entonces se reinicia la palabra ingresada
-                if (casillaActual < ultimaCasilla) casillaActual++; // y se pasa a procesar la proxima filas
             } else {
                 Toast.makeText(this, "Complete la palabra para enviarla", Toast.LENGTH_SHORT).show();
             }
         } else{
             Toast.makeText(this, "Juego terminado.", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    private void procesarPalabraIngresada(){
+        for (int i = 0; i <= 4; i++) {
+            String letra = "" + palabraIngresada.charAt(i);
+            if (palabraEscondida.contains(letra)) {
+                validarPosicionDeLetra(i);
+            } else {
+                pintarLetra(i, R.color.teal_700);
+            }
+
+        }
+    }
+
+    private void validarPosicionDeLetra(int pos){
+        if (palabraEscondida.charAt(pos) == palabraIngresada.charAt(pos))
+            pintarLetra(pos, R.color.black);
+        else
+            pintarLetra(pos, R.color.purple_200);
+    }
+
+
+    private void pintarLetra (int i, int color){
+        filaCasillas[i+1].setBackgroundResource(color);
+        char letra = palabraIngresada.charAt(i);
+        switch (letra) {
+            case 'A': findViewById(R.id.letraA).setBackgroundColor(color);
+                break;
+            case 'B': findViewById(R.id.letraB).setBackgroundColor(color);
+                break;
+            case 'C': findViewById(R.id.letraC).setBackgroundColor(color);
+                break;
+            case 'D': findViewById(R.id.letraD).setBackgroundColor(color);
+                break;
+            case 'E': findViewById(R.id.letraE).setBackgroundColor(color);
+                break;
+            case 'F': findViewById(R.id.letraF).setBackgroundColor(color);
+                break;
+            case 'G': findViewById(R.id.letraG).setBackgroundColor(color);
+                break;
+            case 'H': findViewById(R.id.letraH).setBackgroundColor(color);
+                break;
+            case 'I': findViewById(R.id.letraI).setBackgroundColor(color);
+                break;
+            case 'J': findViewById(R.id.letraJ).setBackgroundColor(color);
+                break;
+            case 'K': findViewById(R.id.letraK).setBackgroundColor(color);
+                break;
+            case 'L': findViewById(R.id.letraL).setBackgroundColor(color);
+                break;
+            case 'M': findViewById(R.id.letraM).setBackgroundColor(color);
+                break;
+            case 'N': findViewById(R.id.letraN).setBackgroundColor(color);
+                break;
+            case 'Ñ': findViewById(R.id.letraÑ).setBackgroundColor(color);
+                break;
+            case 'O': findViewById(R.id.letraO).setBackgroundColor(color);
+                break;
+            case 'P': findViewById(R.id.letraP).setBackgroundColor(color);
+                break;
+            case 'Q': findViewById(R.id.letraQ).setBackgroundColor(color);
+                break;
+            case 'R': findViewById(R.id.letraR).setBackgroundColor(color);
+                break;
+            case 'S': findViewById(R.id.letraS).setBackgroundColor(color);
+                break;
+            case 'T': findViewById(R.id.letraT).setBackgroundColor(color);
+                break;
+            case 'U': findViewById(R.id.letraU).setBackgroundColor(color);
+                break;
+            case 'V': findViewById(R.id.letraV).setBackgroundColor(color);
+                break;
+            case 'W': findViewById(R.id.letraW).setBackgroundColor(color);
+                break;
+            case 'X': findViewById(R.id.letraX).setBackgroundColor(color);
+                break;
+            case 'Y': findViewById(R.id.letraY).setBackgroundColor(color);
+                break;
+            case 'Z': findViewById(R.id.letraZ).setBackgroundColor(color);
+                break;
         }
     }
 }
