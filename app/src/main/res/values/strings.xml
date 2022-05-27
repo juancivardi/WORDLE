@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">Wordle</string>
+    <string name="app_name">WORDLE</string>
+    <string name="jugar">JUGAR</string>
+    <string name="explicacion">EXPLICACION</string>
+    <string name="enviar">ENVIAR</string>
+    <string name="como_jugar">CÓMO JUGAR</string>
+    <string name="instrucciones">
+        Adivina la WORDLE en 6 intentos.
+        Cada conjetura debe ser una palabra válida de 5 letras. Pulse el botón Intro para enviar.
+        Después de cada suposición, el color de las fichas cambiará para mostrar qué tan cerca estuvo su suposición de la palabra.
+    </string>
+    <string name="pantalla_principal">PANTALLA PRINCIPAL</string>
 </resources>

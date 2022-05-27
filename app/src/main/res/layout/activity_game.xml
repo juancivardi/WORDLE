@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_width= "match_parent"
+    android:layout_height= "match_parent"
+    android:orientation="vertical"
+    android:background="#dddddd">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:background="#ffffff"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/casilla1"
+                style="@style/Casillas" />
+
+            <TextView
+                android:id="@+id/casilla2"
+                style="@style/Casillas" />
+
+            <TextView
+                android:id="@+id/casilla3"
+                style="@style/Casillas" />
+
+            <TextView
+                android:id="@+id/casilla4"
+                style="@style/Casillas" />
+
+            <TextView
+                android:id="@+id/casilla5"
+                style="@style/Casillas" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/casilla6"
+                style="@style/Casillas" />
+
+            <TextView
+                android:id="@+id/casilla7"
+                style="@style/Casillas" />
+
+            <TextView
+                android:id="@+id/casilla8"
+                style="@style/Casillas" />
+
+            <TextView
+                android:id="@+id/casilla9"
+                style="@style/Casillas" />
+
+            <TextView
+                android:id="@+id/casilla10"
+                style="@style/Casillas" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/casilla11"
+                style="@style/Casillas" />
+
+            <TextView
+                android:id="@+id/casilla12"
+                style="@style/Casillas" />
+
+            <TextView
+                android:id="@+id/casilla13"
+                style="@style/Casillas" />
+
+            <TextView
+                android:id="@+id/casilla14"
+                style="@style/Casillas" />
+
+            <TextView
+                android:id="@+id/casilla15"
+                style="@style/Casillas" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/casilla16"
+                style="@style/Casillas" />
+
+            <TextView
+                android:id="@+id/casilla17"
+                style="@style/Casillas" />
+
+            <TextView
+                android:id="@+id/casilla18"
+                style="@style/Casillas" />
+
+            <TextView
+                android:id="@+id/casilla19"
+                style="@style/Casillas" />
+
+            <TextView
+                android:id="@+id/casilla20"
+                style="@style/Casillas" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/casilla21"
+                style="@style/Casillas" />
+
+            <TextView
+                android:id="@+id/casilla22"
+                style="@style/Casillas" />
+
+            <TextView
+                android:id="@+id/casilla23"
+                style="@style/Casillas" />
+
+            <TextView
+                android:id="@+id/casilla24"
+                style="@style/Casillas" />
+
+            <TextView
+                android:id="@+id/casilla25"
+                style="@style/Casillas" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/casilla26"
+                style="@style/Casillas" />
+
+            <TextView
+                android:id="@+id/casilla27"
+                style="@style/Casillas" />
+
+            <TextView
+                android:id="@+id/casilla28"
+                style="@style/Casillas" />
+
+            <TextView
+                android:id="@+id/casilla29"
+                style="@style/Casillas" />
+
+            <TextView
+                android:id="@+id/casilla30"
+                style="@style/Casillas" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraQ"
+                android:text="Q"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraW"
+                android:text="W"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraE"
+                android:text="E"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraR"
+                android:text="R"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraT"
+                android:text="T"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraY"
+                android:text="Y"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraU"
+                android:text="U"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraI"
+                android:text="I"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraO"
+                android:text="O"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraP"
+                android:text="P"
+                android:onClick="enviarLetra"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraA"
+                android:text="A"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraS"
+                android:text="S"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraD"
+                android:text="D"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraF"
+                android:text="F"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraG"
+                android:text="G"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraH"
+                android:text="H"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraJ"
+                android:text="J"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraK"
+                android:text="K"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraL"
+                android:text="L"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraÑ"
+                android:text="Ñ"
+                android:onClick="enviarLetra"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/ENVIAR"
+                android:layout_span="2"
+                android:text="@string/enviar"
+                android:onClick="comprobarPalabra"/>
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraZ"
+                android:text="Z"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraX"
+                android:text="X"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraC"
+                android:text="C"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraV"
+                android:text="V"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraB"
+                android:text="B"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraN"
+                android:text="N"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/letraM"
+                android:text="M"
+                android:onClick="enviarLetra"/>
+
+            <Button
+                style="@style/Letras"
+                android:id="@+id/BORRAR"
+                android:text="-"
+                android:onClick="borrarLetra"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

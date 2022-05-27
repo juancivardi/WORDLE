@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WORDLE</string>
+    <string name="jugar">PLAY</string>
+    <string name="explicacion">EXPLANATION</string>
+    <string name="enviar">SEND</string>
+    <string name="instrucciones">Guess the WORDLE in 6 tries.  Each guess must be a valid 5 letter word. Hit the enter button to submit.  After each guess, the color of the tiles will change to show how close your guess was to the word.</string>
+    <string name="como_jugar">HOW TO PLAY</string>
+</resources>

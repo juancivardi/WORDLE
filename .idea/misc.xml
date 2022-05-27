@@ -4,6 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Barbie/AndroidStudioProjects/Wordle/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Leo Tarditi/Documents/GitHub/WORDLE/app/src/main/res/drawable-land/drawable_land.xml" value="0.1015" />
+        <entry key="..\:/Users/Leo Tarditi/Documents/GitHub/WORDLE/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1015" />
+        <entry key="..\:/Users/Leo Tarditi/Documents/GitHub/WORDLE/app/src/main/res/layout-land/activity_main.xml" value="0.13" />
+        <entry key="..\:/Users/Leo Tarditi/Documents/GitHub/WORDLE/app/src/main/res/layout/activity_explanation.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Leo Tarditi/Documents/GitHub/WORDLE/app/src/main/res/layout/activity_game.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Leo Tarditi/Documents/GitHub/WORDLE/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
       </map>
     </option>
